@@ -1,0 +1,173 @@
+*{
+    margin:0% ;
+    padding:0% ;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;   
+    background: pink;
+}
+    
+
+.head{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: pink;
+    width: 100%;
+
+}
+
+.navbar{
+    margin-right: 30px;
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: deeppink;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+form-group {
+  background: pink;
+  text-align: center;
+  position: relative;
+}
+
+.navbar a:hover{
+    background: floralwhite;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header{
+    height: 60vh !important;
+    background: url(img/Captura\ de\ Pantalla\ 2022-11-09\ a\ las\ 17.27.44.png) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: deeppink;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid deeppink;
+    color: whitesmoke;
+    text-decoration: none;
+    background: deeppink;
+}
+
+.btn:hover{
+    background: none;
+    
+}
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+
+}
+
+input{
+    color: deeppink;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+.btn-navbar{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 23px 20px;
+    color: deeppink;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+   justify-content: center;
+}
+
+.dropdown{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 23px 20px;
+    color: deeppink;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: pink;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: deeppink;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: whitesmoke;
+    background-color: deeppink;
+}
+
+.caja{
+    display: grid;
+    grid-template-columns:  30 30;
+    justify-content: space-between;
+    width: 30%; 
+    height: 30%;
+    margin: auto;
+    border: deeppink;
+    padding: 20px;
+    
+}
+
+.desc{
+  color: white;
+}
+
+.carousel{
+  border: deeppink;
+  background: palevioletred;
+}

@@ -1,0 +1,73 @@
+$color-fondos: pink;
+$color-titulos: deeppink;
+$color-parrafos: white;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: $color-fondos;
+}
+
+title{
+    color: $color-titulos;
+    }
+
+navbar{
+    position: inherit;
+    background: pink;
+    color: $color-titulos;
+}
+
+container{
+    color: $color-titulos;
+    background: $color-fondos;
+}
+form-group{
+    background: $color-fondos;
+    color: $color-parrafos;
+    text-align: center;
+    position: relative;
+  }
+button{
+    color: $color-titulos;
+    background: $color-fondos;
+    text-align: center;
+    position: relative;
+  }
+dropdown-menu{
+    background: $color-fondos;
+    color: $color-titulos;
+    text-align: center;
+  }
+btn{
+    color: $color-parrafos;
+    background: $color-fondos;
+    border: $color-titulos;
+    box-shadow: $color-titulos;
+}
+navbar-brand{
+    color: $color-titulos;
+}
+head{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: $color-fondos;
+    width: 100%;
+}
+
+container-fluid{
+  color: $color-titulos;
+  background: $color-fondos;
+  position: relative;
+  text-align: center;
+}
+
+desc{
+    color: $color-parrafos;
+}
